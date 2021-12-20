@@ -1,0 +1,17 @@
+.btn{
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;   
+    padding: .8vh 4vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.btn:hover{
+    background: rgb(89, 153, 250);
+}
