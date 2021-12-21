@@ -1,0 +1,62 @@
+.cadastro{
+    margin-top: 15vh;
+}
+
+.cadastro_title{
+    text-align: center;
+    color: rgb(89, 153, 250);
+}
+.cadastro_content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.cadastro_img{
+    width: 50%;
+}
+
+.cadastro_input{
+    width: 50%;
+}
+
+.campo{
+    width: 80%;
+    padding: 1.5vh;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    transition: all 0.3s;
+}
+
+.campo:focus { 
+    outline: none ;
+    border-color:rgb(89, 153, 250) ;
+    box-shadow: 0 0 10px rgb(89, 153, 250);
+}
+.title{
+    font-size: 2vh;
+    color: #555;
+}
+
+.btn{
+    background: rgb(89, 153, 250);
+    border: 1px solid #999999;
+    border-radius: 15px;
+    padding: 1vh 3vh;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: #333;
+}
+
+.politicas{
+    color: #999;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.curiosidades{
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.curiosidades_content{
+    width: 80%;
+    margin: auto;
+}
+
+.curiosidades_item{
+    margin-top: 10vh;
+}
+.curiosidades_item h1{
+    font-size: 4vh;
+    color: rgb(89, 153, 250);
+    margin-bottom: 10vh;
+}
+
+.curiosidades_item p{
+    text-align: justify;
+}
+
+.curiosidades_item_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.curiosidades_txt{
+    width: 50%;
+    line-height:5vh;
+}
+
+.curiosidades_img{
+    border-radius: 50%;
+}
+

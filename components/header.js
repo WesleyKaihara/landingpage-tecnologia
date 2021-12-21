@@ -11,13 +11,19 @@ export default function Header() {
                 <div className={style.header_content}>
 
                 <div className={style.header_menu}>
-                <Image
+                    <Link href="/">
+                    <a>
+                    <Image
                         priority
                         src="/images/logo.svg"
                         alt="Logo"
                         width={"100%"}
                         height={"60vh"} />
-                    <Link href="/" >
+
+                    </a>
+                    </Link>
+               
+                    <Link href="/curiosidades" >
                     <a className={style.link} >Curiosidades</a>
                     </Link>
                     <Link href="/" >
@@ -32,9 +38,13 @@ export default function Header() {
                 </div>
                 
                 <div className={style.entrar}>
-                    <Btn 
-                    value="experimente grátis"/>
-                    <Link href="/" >
+                    <Link href="/cadastro">
+                    <a>  <Btn 
+                    value="experimente grátis"/></a>
+                    </Link>
+                  
+
+                    <Link href="/login" >
                     <a className={style.link} >Entrar</a>
                     </Link> 
                 </div>
