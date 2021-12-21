@@ -1,0 +1,28 @@
+.contato{
+    margin-top: 15vh;
+}
+
+.span{
+    color: rgb(89, 153, 250);
+}
+
+.title{
+    text-align: center;
+    font-size: 8vh;
+    margin-bottom: 10vh;
+}
+
+.contato_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato_img{
+    border-radius: 50%;
+}
+
+.contato_text{
+    width: 50%;
+}

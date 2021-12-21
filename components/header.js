@@ -29,7 +29,7 @@ export default function Header() {
                     <Link href="/" >
                     <a className={style.link} >Produtos</a>
                     </Link>
-                    <Link href="/" >
+                    <Link href="/contato" >
                     <a className={style.link} >Fale Conosco</a>
                     </Link>
                     <Link href="/" >
