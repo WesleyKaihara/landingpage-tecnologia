@@ -1,0 +1,30 @@
+.blog_card{
+    background: rgba(243, 243, 243, 0.753);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1vh;
+    width: 100%;
+    height: 240px;
+    transition: all .4s;
+    color: black;
+}
+
+.blog_card:hover{
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.blog_txt{
+    width: 150px;
+    margin: auto;
+}
+
+.blog_img{
+    border-radius: 10px;
+}
+
+@media(max-width:1000px){
+    .blog_card{
+        height: 280px;
+    }
+}

@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <>
             <div className={style.header}>
-
+                
                 <div className={style.header_content}>
 
                 <div className={style.header_menu}>
